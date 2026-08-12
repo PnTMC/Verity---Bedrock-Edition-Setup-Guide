@@ -1,1 +1,1 @@
-# Verity---Bedrock-Edition-Setup-Guide
+# Verity - Bedrock Edition | Setup Guide
