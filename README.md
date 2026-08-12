@@ -2,9 +2,14 @@
 
 **This is the page that guide you how you can set up Verity - Bedrock Edition (version 4.0.0)**
 
+<img width="689" height="317" alt="image" src="https://github.com/user-attachments/assets/48dea204-5971-4cac-9acd-0e1e9fbd78d6" />
+
+
 ## Downloads
 
+
 You can download Verity - Bedrock Edition (version 4.0.0) from [Curseforge](https://www.curseforge.com/minecraft-bedrock/addons/verity-bedrock-edition) & [MCPEDL](https://mcpedl.com/verity-bedrock-edition/)
+
 
 ## Installation
 
