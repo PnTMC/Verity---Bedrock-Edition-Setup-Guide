@@ -16,3 +16,9 @@ You can download Verity - Bedrock Edition (version 4.0.0) from [Curseforge](http
 > [!NOTE]
 > Voicechat, AI are not officially supported on Minecraft Bedrock!
 
+### Android
+
+| **Using Termux & Termux:API** |
+|:-|
+| 1. Install [F-Droid](https://f-droid.org/) |
+| 2. Open F-Droid, search for, and install both Termux and Termux:API <br> (Ensure both are installed from F-Droid , If you're having trouble, ask an AI for help) |
