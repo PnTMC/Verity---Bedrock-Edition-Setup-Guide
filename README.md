@@ -23,3 +23,13 @@ You can download Verity - Bedrock Edition (version 4.0.0) from [Curseforge](http
 | 1. Install [F-Droid](https://f-droid.org/) |
 | 2. Open F-Droid, search for, and install both Termux and Termux:API <br> (Ensure both are installed from F-Droid , If you're having trouble, ask an AI for help) |
 | 3. <br> - Press & hold the Termux:API app icon $\rightarrow$ Tap App Info. <br> - Go to Battery (or Power) $\rightarrow$ Choose Unrestricted (or No restrictions). <br> - Go back $\rightarrow$ Tap Permissions $\rightarrow$ Microphone $\rightarrow$ Choose Allow. |
+
+<br>
+
+### Windows
+
+| **Using Terminal** |
+|:-|
+| 1. ⊞ + R |
+| 2.  |
+| 3.  |
