@@ -123,7 +123,7 @@ bash start_android.sh
 > After you run this command, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
 
 > [!NOTE]
-> CTRL + C in Termux to stop the program
+> CTRL + C in Termux to stop the program . If you want to play again, just run `cd ~/verity-android-setup` and `bash start_android.sh`.
 
 <br>
 
@@ -157,4 +157,4 @@ bash start_android.sh
 > After you run `start_minecraft_stt.bat`, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
 
 > [!NOTE]
-> CTRL + C in `start_minecraft_stt.bat` to stop the program
+> CTRL + C in `start_minecraft_stt.bat` to stop the program . If you want to play again, just double-click `start_minecraft_stt.bat`
