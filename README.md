@@ -26,10 +26,44 @@ You can download Verity - Bedrock Edition (version 4.0.0) from [Curseforge](http
 
 <br>
 
-### Windows
-
-| **Using Terminal** |
+| **SETUP on Android** |
 |:-|
-| 1. ⊞ + R |
-| 2.  |
-| 3.  |
+| 1. Extract the "verity-android-setup.zip" file you downloaded directly in the "Download" folder |
+| 2. Click on verity-android-setup and open the .env file then get the API keys/FishAudio Models ID to insert!! <br> - Groq API Keys : [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Keys : [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID : [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) |
+| 3. Open **Termux** and run the following commands sequentially : |
+
+<br>
+
+1. Update packages & install dependencies :
+```
+pkg update -y && pkg install -y termux-api play-audio which unzip python python-pip dos2unix
+```
+
+<br>
+
+2. Grant storage permission :
+```
+termux-setup-storage
+```
+> [!NOTE]
+> Tap Allow when prompted for storage access permission
+
+<br>
+
+3. Check Microphone :
+```
+which termux-microphone-record
+```
+> [!IMPORTANT]
+> Must print a path, For Example : /data/data/com.termux/files/usr/bin/termux-microphone-record
+
+
+
+
+
+
+
+
+<br>
+<br>
+
