@@ -109,7 +109,7 @@ bash start_android.sh
 | **Using File Explorer & CMD** |
 |:-|
 | 1. Extract the `verity-windows-setup.zip` file you downloaded |
-| 2. Then, copy the newly extracted folder to this path: "C:\Users\<your-name>\verity-windows-setup" |
+| 2. Then, copy the newly extracted folder to this path: `C:\Users\<your-name>\verity-windows-setup` |
 
 
 <br>
