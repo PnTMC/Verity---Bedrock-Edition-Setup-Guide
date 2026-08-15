@@ -98,9 +98,11 @@ bash start_android.sh
 > [!NOTE]
 > After you run this command, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
 
-
 <br>
 
+---
+
+<br>
 
 ### Windows
 
@@ -114,8 +116,13 @@ bash start_android.sh
 
 | **SETUP on Windows** |
 |:-|
-| 1. Click on `verity-windows-setup` and open the `.env` file then get the API keys/FishAudio Models ID to insert!! <br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) |
-| 2. Double-click `start_minecraft_stt.bat` inside the extracted folder (`verity-windows-setup`) <br><br> *If any errors occur, follow the repair instructions displayed when the `start_minecraft_stt.bat` file runs* |
+| 1. Download Python 3.10+ : [Here](https://www.python.org/downloads/) |
+| 2. Open CMD and test `python --version` , You must see a version number, not "not found" |
+| 3. Click on `verity-windows-setup` and open the `.env` file then get the API keys/FishAudio Models ID to insert!! <br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) |
+| 4. Open CMD and run : <br> **```cd %USERPROFILE%\verity-windows-setup```** <br> **```python -m pip install -r requirements.txt```** <br> **```python -m pip install --force-reinstall websockets==10.4```** |
+| 5. Right-click **`fix_minecraft_loopback.bat`** (inside verity-windows-setup folder) -> Run as administrator <br> If it still fails, also right-click **`fix_firewall_and_loopback.bat`** -> Run as administrator |
+| 6. Go to Settings -> Privacy & security -> Microphone then Allow desktop apps to use the mic. |
+| 7. Double-click `start_minecraft_stt.bat` inside the extracted folder (`verity-windows-setup`) <br><br> *If any errors occur, follow the repair instructions displayed when the `start_minecraft_stt.bat` file runs* |
 
 <br>
 
