@@ -19,7 +19,7 @@
 </p>
 
 
-## Downloads
+## ⬇️ Downloads
 
 
 You can download Verity - Bedrock Edition (v4.0.0) from:
@@ -27,7 +27,7 @@ You can download Verity - Bedrock Edition (v4.0.0) from:
 * [MCPEDL](https://mcpedl.com/verity-bedrock-edition/)
 
 
-## Settings in Minecraft
+## ⚙️ Settings in Minecraft
 
 Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ Configure **WebSockets** as shown in the image below.<br>(Enable `WebSockets` and Disable `Require Encrypted Websockets`)
 
@@ -37,14 +37,14 @@ Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ 
 
 <br>
 
-## Installation
+## 📥 Installation
 
 > [!NOTE]
 > Voicechat and AI are not officially supported features on Minecraft Bedrock natively!
 
 <br>
 
-### Android
+### 🤖 Android
 
 | **Using Termux & Termux:API** |
 |:-|
@@ -124,7 +124,7 @@ bash start_android.sh
 
 <br>
 
-### Windows
+### 🪟 Windows
 
 | **Using File Explorer & CMD** |
 |:-|
