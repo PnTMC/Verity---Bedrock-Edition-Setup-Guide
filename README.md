@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 2em; font-weight: bold; margin: 0;">Verity - Bedrock Edition | Setup Guide</h1>
+e<h1 align="center" style="font-size: 2em; font-weight: bold; margin: 0;">Verity - Bedrock Edition | Setup Guide</h1>
 
 <p align="center">
   <b>This guide will help you set up Verity - Bedrock Edition (v4.0.0)</b>
@@ -122,6 +122,9 @@ bash start_android.sh
 > [!NOTE]
 > After you run this command, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
 
+> [!NOTE]
+> CTRL + C in Termux to stop the program
+
 <br>
 
 ---
@@ -152,3 +155,6 @@ bash start_android.sh
 
 > [!NOTE]
 > After you run `start_minecraft_stt.bat`, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
+
+> [!NOTE]
+> CTRL + C in `start_minecraft_stt.bat` to stop the program
