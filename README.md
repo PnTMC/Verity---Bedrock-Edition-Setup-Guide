@@ -8,6 +8,16 @@
   <img width="689" height="317" alt="Verity Banner" src="https://github.com/user-attachments/assets/48dea204-5971-4cac-9acd-0e1e9fbd78d6" />
 </p>
 
+<p align="center">
+  <b>If you encounter any errors or issues, you can contact me via Discord or Tiktok or Youtube XDDD</b>
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/Ngc96hZs4w"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" height="50" /></a>
+  <a href="https://tiktok.com/@pntmcvietnam"><img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" height="50" /></a>
+  <a href="https://youtube.com/@PnTMCvn"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white" height="50" /></a>
+</p>
+
 
 ## Downloads
 
