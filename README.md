@@ -27,6 +27,12 @@ You can download Verity - Bedrock Edition (v4.0.0) from:
 * [MCPEDL](https://mcpedl.com/verity-bedrock-edition/)
 
 
+## Settings in Minecraft
+
+
+
+
+
 ## Installation
 
 > [!NOTE]
