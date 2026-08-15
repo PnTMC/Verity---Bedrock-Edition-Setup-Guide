@@ -33,6 +33,8 @@ Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ 
 
 ![Screenshots](docs/websocketssettings.png "Websockets settings in Minecraft")
 
+(The image above was taken in version 26.44, you can find a similar button under "General" in older versions, but the button layout and positioning will differ.)
+
 <br>
 
 ## Installation
