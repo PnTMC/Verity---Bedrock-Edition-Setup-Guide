@@ -29,9 +29,11 @@ You can download Verity - Bedrock Edition (v4.0.0) from:
 
 ## Settings in Minecraft
 
+Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ Configure **WebSockets** as shown in the image below.<br>(Enable `WebSockets` and Disable `Require Encrypted Websockets`)
 
+![Screenshots](docs/websocketssettings.png "Websockets settings in Minecraft")
 
-
+<br>
 
 ## Installation
 
