@@ -18,6 +18,10 @@
   <a href="https://youtube.com/@PnTMCvn"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white" height="50" /></a>
 </p>
 
+<p align="center">
+  <b>DISCLAIMER : <br> If you download this application or setup files from unauthorized or unofficial sources, I take no responsibility for any bugs, errors, software conflicts, or security risks that may occur</b>
+</p>
+
 
 ## ⬇️ Downloads
 
