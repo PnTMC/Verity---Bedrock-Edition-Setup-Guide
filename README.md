@@ -22,6 +22,8 @@ You can download Verity - Bedrock Edition (v4.0.0) from:
 > [!NOTE]
 > Voicechat and AI are not officially supported features on Minecraft Bedrock natively!
 
+<br>
+
 ### Android
 
 | **Using Termux & Termux:API** |
@@ -94,10 +96,30 @@ bash start_android.sh
 ```
 
 > [!NOTE]
-> After you run this command, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats**.
+> After you run this command, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
 
 
 
 <br>
 <br>
 
+
+### Windows
+
+| **Using File Explorer & CMD** |
+|:-|
+| 1. Extract the `verity-windows-setup.zip` file you downloaded |
+| 2. Then, copy the newly extracted folder to this path: "C:\Users\<your-name>\verity-windows-setup" |
+
+
+<br>
+
+| **SETUP on Windows** |
+|:-|
+| 1. Click on `verity-windows-setup` and open the `.env` file then get the API keys/FishAudio Models ID to insert!! <br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) |
+| 2. Double-click `start_minecraft_stt.bat` inside the extracted folder (`verity-windows-setup`) <br><br> *If any errors occur, follow the repair instructions displayed when the `start_minecraft_stt.bat` file runs* |
+
+<br>
+
+> [!NOTE]
+> After you run `start_minecraft_stt.bat`, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
