@@ -1,4 +1,4 @@
-e<h1 align="center" style="font-size: 2em; font-weight: bold; margin: 0;">Verity - Bedrock Edition | Setup Guide</h1>
+<h1 align="center" style="font-size: 2em; font-weight: bold; margin: 0;">Verity - Bedrock Edition | Setup Guide</h1>
 
 <p align="center">
   <b>This guide will help you set up Verity - Bedrock Edition (v4.0.0)</b>
