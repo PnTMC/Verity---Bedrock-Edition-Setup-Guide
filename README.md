@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img width="689" height="317" alt="Verity Banner" src="https://github.com/user-attachments/assets/48dea204-5971-4cac-9acd-0e1e9fbd78d6" />
+  <img wid https://github.com/PnTMC/Verity-Bedrock-Edition-Setup-Guide.gitth="689" height="317" alt="Verity Banner" src="https://github.com/user-attachments/assets/48dea204-5971-4cac-9acd-0e1e9fbd78d6" />
 </p>
 
 <p align="center">
