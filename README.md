@@ -62,7 +62,7 @@ Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ 
 |:-|
 | 1. Extract the `verity-android-setup.zip` file you downloaded directly in the `Download` folder |
 | 2. Click on `verity-android-setup` and open the `.env` file then get the API keys/FishAudio Models ID to insert!! <br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) |
-| 3. Open **Termux** and run the command below : |
+| 3. Open **Termux** and just run only the command below : |
 
 <br>
 
