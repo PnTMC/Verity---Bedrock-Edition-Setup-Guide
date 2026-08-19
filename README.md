@@ -131,7 +131,7 @@ bash start_android.sh
 > After you run this command, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
 
 > [!NOTE]
-> CTRL + C in Termux and click Exit on Termux session on Notifications to stop the program . If you want to play again, just run `cd ~/verity-android-setup` and `bash start_android.sh`.
+> CTRL + C in Termux and click Exit on Termux session on Notifications to stop the program . If you want to play again, just run `cd ~/verity-android-setup && bash start_android.sh`.
 
 <br>
 
