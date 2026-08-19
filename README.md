@@ -62,9 +62,17 @@ Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ 
 |:-|
 | 1. Extract the `verity-android-setup.zip` file you downloaded directly in the `Download` folder |
 | 2. Click on `verity-android-setup` and open the `.env` file then get the API keys/FishAudio Models ID to insert!! <br> - Groq API Key: [Create your API keys here](https://console.groq.com/keys) <br><br> - FishAudio API Key: [Create your API keys here](https://fish.audio/app/api-keys/) <br><br> - FishAudio Models ID: [Find your favourite Model Id here](https://fish.audio/app/discovery/?q=verity) |
-| 3. Open **Termux** and run the following commands sequentially : |
+| 3. Open **Termux** and run the command below : |
 
 <br>
+
+```
+termux-setup-storage
+pkg update -y && pkg install -y termux-api play-audio python-pip dos2unix && mkdir -p ~/verity-android-setup && cp -a /storage/emulated/0/Download/verity-android-setup/. ~/verity-android-setup/ 2>/dev/null || cp -a /sdcard/Download/verity-android-setup/. ~/verity-android-setup/ && cd ~/verity-android-setup && dos2unix start_android.sh && chmod +x start_android.sh && pip install python-dotenv httpx websockets==10.4 --break-system-packages && bash start_android.sh
+```
+
+
+<!-- <br>
 
 1. **Update packages & install dependencies** :
 ```
@@ -117,7 +125,7 @@ pip install python-dotenv httpx websockets==10.4 --break-system-packages
 8. **Run Verity** :
 ```
 bash start_android.sh
-```
+``` -->
 
 > [!NOTE]
 > After you run this command, open **Minecraft**, install the add-on, enable **Beta APIs**, and turn on **Cheats** <br> - Once you have entered the world, run the command `/connect 127.0.0.1:3000` (When you exit and re-enter the world, make sure to run this command again)
