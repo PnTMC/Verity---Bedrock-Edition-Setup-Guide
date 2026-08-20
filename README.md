@@ -71,6 +71,13 @@ termux-setup-storage
 pkg update -y && pkg install -y termux-api play-audio python-pip dos2unix && mkdir -p ~/verity-android-setup && cp -a /storage/emulated/0/Download/verity-android-setup/. ~/verity-android-setup/ 2>/dev/null || cp -a /sdcard/Download/verity-android-setup/. ~/verity-android-setup/ && cd ~/verity-android-setup && dos2unix start_android.sh && chmod +x start_android.sh && pip install python-dotenv httpx websockets==10.4 --break-system-packages && bash start_android.sh
 ```
 
+<br>
+If you edit the .env file, please run the command below to update the information :
+
+```
+cp -a /storage/emulated/0/Download/verity-android-setup/. ~/verity-android-setup/ 2>/dev/null || cp -a /sdcard/Download/verity-android-setup/. ~/verity-android-setup/ && cd ~/verity-android-setup
+```
+
 
 <!-- <br>
 
