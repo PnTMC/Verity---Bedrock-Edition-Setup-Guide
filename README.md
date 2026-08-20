@@ -54,7 +54,7 @@ Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ 
 |:-|
 | 1. Download and install **[F-Droid](https://f-droid.org/)** |
 | 2. Open F-Droid, search for, and install both **Termux** and **Termux:API** <br> (Ensure both are installed from F-Droid , If you're having trouble, ask AI for help) |
-| 3. <br> - Press & hold the **Termux:API** app icon $\rightarrow$ Tap **App Info**. <br> - Go to **Battery** $\rightarrow$ Choose **Unrestricted** (or No restrictions). <br> - Go to **Permissions** $\rightarrow$ **Microphone** $\rightarrow$ Select **Allow** |
+| 3. <br> - Press & hold the **Termux:API** app icon $\rightarrow$ Tap **App Info**. <br> - Go to **Battery** $\rightarrow$ Choose **Unrestricted** (or No restrictions). <br> - Go to **Permissions** $\rightarrow$ **Microphone** $\rightarrow$ Select **Allow** <br> (This step allows **Termux** to run in the background.) |
 
 <br>
 
@@ -66,13 +66,17 @@ Go to **Settings** in Minecraft Bedrock $\rightarrow$ **General** $\rightarrow$ 
 
 <br>
 
+
 ```
 termux-setup-storage
 pkg update -y && pkg install -y termux-api play-audio python-pip dos2unix && mkdir -p ~/verity-android-setup && cp -a /storage/emulated/0/Download/verity-android-setup/. ~/verity-android-setup/ 2>/dev/null || cp -a /sdcard/Download/verity-android-setup/. ~/verity-android-setup/ && cd ~/verity-android-setup && dos2unix start_android.sh && chmod +x start_android.sh && pip install python-dotenv httpx websockets==10.4 --break-system-packages && bash start_android.sh
 ```
+> [!NOTE]
+> Use `termux-setup-storage` to allow Termux to access data on your device.
 
 <br>
 If you edit the .env file, please run the command below to update the information :
+<br>
 
 ```
 cp -a /storage/emulated/0/Download/verity-android-setup/. ~/verity-android-setup/ 2>/dev/null || cp -a /sdcard/Download/verity-android-setup/. ~/verity-android-setup/ && cd ~/verity-android-setup
